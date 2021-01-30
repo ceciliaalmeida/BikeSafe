@@ -1,21 +1,13 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+@extends('layout.main')
+@section('title', 'Bicicletas')
+@section('content')
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<h1>Lista de Bikes roubadas: </h1>
 
-    <title>Laravel</title>
-    <link rel="stylesheet" href="/css/styles.css">
-    <script src="/js/scripts.js"></script>
+@if($busca != '')
+<p>O usuário está buscando por {{ $busca }} </p>
+@endif
 
-</head>
+<a href="\contact">Voltar para contatos de bikes roubadas</a>
 
-<body>
-
-    <h1>Lista de Bikes roubadas: </h1>
-    <a href="\contact">Voltar para contatos de bikes roubadas</a>
-
-</body>
-
-</html>
+@endsection
