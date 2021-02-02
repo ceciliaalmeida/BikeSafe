@@ -34,7 +34,7 @@
                         <a href="/" class="nav-link">Bikes</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/" class="nav-link">Cadastrar Bikes</a>
+                        <a href="/bikes/create" class="nav-link">Cadastrar Bikes</a>
                     </li>
                     <li class="nav-item">
                         <a href="/" class="nav-link">Entrar</a>
@@ -51,6 +51,7 @@
     <footer>
         <p>Bike Safe &copy; 2020</p>
     </footer>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 
 </body>
 

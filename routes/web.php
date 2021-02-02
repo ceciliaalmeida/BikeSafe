@@ -12,26 +12,11 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+use App\Http\Controllers\bikeController;
 
-Route::get('/', function () {
-    $nome = "Matheus";
-    $idade = 29;
-    $array = [1, 2, 3, 4, 5];
-    $bikes = ['monark', 'houston'];
+Route::get('/', [bikeController::class, 'index']);
+Route::get('/bikes/create', [bikeController::class, 'create']);
 
-    return view(
-        'welcome',
-        [
-            'nome' => $nome,
-            'idade' => $idade,
-            'profissao' => "Programador",
-            'array' => $array,
-            'bikes' => $bikes
-
-
-        ]
-    );
-});
 
 Route::get('/contact', function () {
     return view('contact');
