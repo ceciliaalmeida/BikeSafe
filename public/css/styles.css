@@ -2,3 +2,129 @@
     font-family: 'Capriola';
 
 }
+
+body{
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+    background-color: #231942;
+    color: rgb(255, 255, 255);
+
+}
+
+.row{
+    margin: 0;
+}
+
+.container-fluid{
+    padding: 0;
+}
+.btn-primary{
+    background-color: darkslateblue;
+    border: 2px solid darkturquoise;
+}
+
+.btn-primary:hover{
+    background: dodgerblue;
+    border-color: darkblue;
+}
+header{
+    background-color: #9d4edd
+    border-bottom: 2px solid dodgerblue;
+}
+
+#navbar img {
+    width: 40px;
+}
+
+#navbar{
+    justify-content: space-between ;
+    background-color:  darkslateblue;
+    padding: 5px 0;
+}
+
+#navbar a {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+#navbar a :hover {
+    color:cyan;
+}
+
+#search-container{
+    background-image: url("../pictures/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 480px;
+    padding: 50px;
+    text-align:justify;
+}
+
+#search-container h1{
+color:darkslateblue;
+margin-bottom: 30px;
+font-weight: 900;
+}
+
+#search-container form{
+    width: 30%;
+    margin: 0;
+}
+
+#bikes-container {
+    padding: 50px;
+}
+#bikes-container h2{
+    margin-bottom: 10px;
+}
+#bikes-container .subtitle{
+ color: rgb(255, 255, 255);
+ margin-bottom: 30px;
+}
+#cards-container{
+    display: flex;
+}
+#bikes-container .card{
+    flex: 1 1 0;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: 5px;
+    color: darkslateblue;
+}
+
+#bikes-container img{
+    max-height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card .card-date{
+font-size: 12px;
+color:darkslateblue;
+}
+.card .card-title{
+    color:darkviolet;
+    font-size: 8px;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+.card-participants{
+    font-size: 14px;
+    color:darkviolet;
+}
+
+footer{
+    text-align: center;
+    background-color: darkslateblue;
+    color:ghostwhite;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer a{
+    margin-bottom: 0;
+}
