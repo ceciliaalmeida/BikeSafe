@@ -46,11 +46,13 @@ header{
 #navbar a {
     font-size: 14px;
     color: rgb(255, 255, 255);
+    margin: 5px;
 }
 
-#navbar a :hover {
+#navbar a:hover {
     color:cyan;
 }
+
 
 #search-container{
     background-image: url("../pictures/banner.jpg");
@@ -68,8 +70,9 @@ font-weight: 900;
 }
 
 #search-container form{
-    width: 30%;
+    width: 29%;
     margin: 0;
+
 }
 
 #bikes-container {
@@ -127,4 +130,22 @@ footer{
 }
 footer a{
     margin-bottom: 0;
+}
+
+/*Bike create page*/
+#bike-create-container{
+    padding: 30px ;
+
+}
+
+#bike-create-container label {
+    font-weight: bold;
+}
+
+#bike-create-container input,
+#bike-create-container textarea,
+#bike-create-container input{
+    font-weight: 12px;
+}
+
 }

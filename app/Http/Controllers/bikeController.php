@@ -24,4 +24,14 @@ class bikeController extends Controller
     {
         return view('bikes.create');
     }
+    public function store(Request $request)
+    {
+        $bike = new Bike;
+        $bike->model = $request->model;
+        $bike->description = $request->description;
+        $bike->city = $request->city;
+
+        $bike->save();
+        return redirect('/');
+    }
 }

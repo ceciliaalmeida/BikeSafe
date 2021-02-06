@@ -26,7 +26,8 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="collapse navbar-collapse" id="navbar">
                 <a href="" class="navbar-brand">
-                    <img src="https://img.icons8.com/nolan/64/tricycle.png" />
+                    <img src="https://img.icons8.com/ios/50/ffffff/cycling-track.png" />
+
                 </a>
 
                 <ul class="navbar-nav">
@@ -51,6 +52,7 @@
     <footer>
         <p>Bike Safe &copy; 2020</p>
     </footer>
+
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 
 </body>
