@@ -32,6 +32,6 @@ class bikeController extends Controller
         $bike->city = $request->city;
 
         $bike->save();
-        return redirect('/');
+        return redirect('/')->with('msg', 'Bike cadastradas com sucesso!');
     }
 }

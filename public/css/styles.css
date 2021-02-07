@@ -28,6 +28,21 @@ body{
     background: dodgerblue;
     border-color: darkblue;
 }
+
+.msg {
+    background-color: darkslateblue;
+    color:  rgb(255, 255, 255);
+    border-radius: darkturquoise;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+.msg:hover {
+    background: dodgerblue;
+    border-color: darkblue;
+}
+
 header{
     background-color: #9d4edd
     border-bottom: 2px solid dodgerblue;
@@ -147,5 +162,6 @@ footer a{
 #bike-create-container input{
     font-weight: 12px;
 }
+
 
 }
