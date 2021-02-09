@@ -17,7 +17,7 @@ use App\Http\Controllers\bikeController;
 Route::get('/', [bikeController::class, 'index']);
 Route::get('/bikes/create', [bikeController::class, 'create']);
 Route::post('/bikes', [bikeController::class, 'store']);
-
+Route::get('bikes/{id}', [bikeController::class, 'show']);
 
 Route::get('/contact', function () {
     return view('contact');

@@ -45,7 +45,7 @@ body{
 
 header{
     background-color: #9d4edd
-    border-bottom: 2px solid dodgerblue;
+    border-bottom 2px solid dodgerblue;
 }
 
 #navbar img {
@@ -104,11 +104,11 @@ font-weight: 900;
     display: flex;
 }
 #bikes-container .card{
-    flex: 1 1 0;
+    flex: 1 1 24%;
     max-width: 25%;
     border-radius: 10px;
     padding: 0;
-    margin: 5px;
+    margin: .5%;
     color: darkslateblue;
 }
 
@@ -163,5 +163,37 @@ footer a{
     font-weight: 12px;
 }
 
-
+#image-container,
+#info-container{
+    margin-top: 30px;
 }
+#info-container h1{
+    font-size: 36px;
+    font-weight: 900;
+}
+#info-container p {
+    padding: 4px;
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+}
+#info-container h3,
+#description-container h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+#info-container ion-icon{
+    font-size: 20px;
+    margin-right: 5px;
+}
+#info-container ion-icon:hover{
+   color: darkturquoise;
+}
+#info-container #bike-submit{
+    margin: 20px 0;
+}
+
+#image-container img{
+    border-radius: 15px;
+}
+

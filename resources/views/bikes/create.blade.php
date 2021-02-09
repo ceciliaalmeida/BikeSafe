@@ -6,12 +6,17 @@
 
 <div id="bike-create-container" class="col-md-6 offset-md-3">
     <h1>Cadastre sua bike aqui:</h1>
-    <form action="/bikes" method="POST">
+
+    <form action="/bikes" method="POST" enctype="multipart/form-data">
 
         {{-- para enviar os dados do formulario para o bb usa o @ csrf --}}
 
         @csrf
 
+        <div class="form-group">
+            <label for="image">Imagem da bike:</label>
+            <input type="file" id="image" name="image" class="form-control-file">
+        </div>
         <div class="form-group">
             <label for="title">Modelo:</label>
             <input type="text" class="form-control" id="model" name="model" placeholder="Modelo da Bike">
