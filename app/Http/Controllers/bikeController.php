@@ -30,6 +30,7 @@ class bikeController extends Controller
         $bike->model = $request->model;
         $bike->description = $request->description;
         $bike->city = $request->city;
+        $bike->items = $request->items;
 
         //image upload
         if ($request->hasFile('image') && $request->file('image')->isValid()) {

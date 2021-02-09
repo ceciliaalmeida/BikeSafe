@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Bike extends Model
 {
     use HasFactory;
+
+    protected $casts = [
+        'items' => 'array'
+    ];
 }

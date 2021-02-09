@@ -29,6 +29,21 @@
             <label for="title">Cidade:</label>
             <input type="text" class="form-control" id="city" name="city" placeholder="Cidade da Bike cadastrada">
         </div>
+        <div class="form-group">
+            <label for="title">Adicione itens externos a bike:</label>
+            <div class="form-group">
+                <input type="checkbox" name="items[]" value="Gps"> Gps
+            </div>
+            <div class="form-group">
+                <input type="checkbox" name="items[]" value="Velocimentro"> Velocimentro
+            </div>
+            <div class="form-group">
+                <input type="checkbox" name="items[]" value="Jogo de roda"> Jogo de roda estilizado
+            </div>
+            <div class="form-group">
+                <input type="email" name="items[]" value="Email comercial"> Email comercial
+            </div>
+        </div>
         <input type="submit" class="btn btn-primary" value="Cadastrar Bike">
     </form>
 </div>
